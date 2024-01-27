@@ -25,8 +25,15 @@ Also I didn't stop processing until there were 7 or more collisions... so may ha
 
 ```
 POKE 44,10:POKE 2560,0:NEW
-LOAD"SPRITEINIT",8
+LOAD"DOTS64LOADER",8
 RUN
+```
+
+-OR-
+```
+LOAD"DOTS64.ML",8,1
+POKE 44,10:POKE 2560,0:NEW
+SYS 49152
 ```
 
 Wait, sprites will load, then display on screen, data in memory will match picture.   Do ``SYS49152`` to restore sprites if needed.
