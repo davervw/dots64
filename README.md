@@ -54,4 +54,4 @@ The distance between sprites is calculated using the [Pythagorean theorem](https
 
 ![solver](solver.png)
 
-Answer will also be posted on [X/Twitter](https://twitter.com/DaveRVW/status/1751494328688742602).
+Answer is also posted on [X/Twitter](https://twitter.com/DaveRVW/status/1751494328688742602).
